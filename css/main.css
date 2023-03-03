@@ -1,0 +1,94 @@
+body, section {
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+}
+section.barra_navegacion {
+    top: 0;
+
+}
+.barra_navegacion nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    background-color: #0a0a20;
+    height: 20px;
+}
+
+.barra_navegacion p {
+    text-align: center;
+    padding: 0;
+    height: 20px;
+}
+
+#principal {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.titulo h1, .titulo h2, .titulo h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.titulo p {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+section.iconos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.iconos img {
+    margin-top: 0;
+    display: block;
+    height: 30px;
+
+}
+
+div.boton {
+    display: block;
+    background-color: #FEAC32 !important;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+div.boton button {
+    border: 2px #FEAC32 solid;
+    width: 100%;
+    color: #000000;
+    background-color: #FEAC32;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.boton button:hover {
+    background-color: #feac60;
+    border: 2px #feac40 solid;
+    cursor: pointer;
+}
+
+.team_work img{
+    width: 100%;
+}
+
+.team_work p {
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
